@@ -2,7 +2,7 @@
 
 > Coolest browser index for geeks! 
 
-在线体验：[https://ShellIndex.com](https://shell.itzoujie.com)
+在线体验：[https://shell.itzoujie.com](https://shell.itzoujie.com)
 
 
 ## ShellIndex 是什么？
