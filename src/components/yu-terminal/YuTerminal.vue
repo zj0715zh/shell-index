@@ -219,7 +219,7 @@ watchEffect(() => {
  * 输入提示符
  */
 const prompt = computed(() => {
-  return `[${user.value.username}]$`;
+  return `[${user&&user.value&&user.value.username}]$`;
 });
 
 /**

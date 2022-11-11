@@ -1,4 +1,4 @@
-# ShellIndex - 脚本式主页
+# ShellIndex - 终端范主页
 
 > Coolest browser index for geeks! 
 

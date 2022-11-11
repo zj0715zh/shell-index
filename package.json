@@ -1,10 +1,10 @@
 {
   "name": "shell-index",
-  "description": "脚本式主页",
+  "description": "终端范主页",
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 18081",
     "dev:crx": "cross-env BUILD_CRX=1 vite build --watch",
     "build": "vue-tsc --noEmit && vite build",
     "build:crx": "cross-env BUILD_CRX=1 vite build",
