@@ -3,12 +3,12 @@ import { defineStore } from "pinia";
 /**
  * 终端配置状态存储
  *
- * @author yupi
+ * @author itzou
  */
 export const useTerminalConfigStore = defineStore("terminalConfig", {
   state: () => ({
     // 背景
-    background: "black",
+    background: "http://shell.itzoujie.com/command.jpg",
     // 输入提示
     showHint: true,
     // 终端欢迎语

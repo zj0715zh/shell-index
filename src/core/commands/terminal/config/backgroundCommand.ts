@@ -5,7 +5,7 @@ import myAxios from "../../../../plugins/myAxios";
 
 /**
  * 切换终端背景
- * @author yupi
+ * @author itzou
  */
 const backgroundCommand: CommandType = {
   func: "background",

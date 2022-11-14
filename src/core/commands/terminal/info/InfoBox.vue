@@ -1,15 +1,13 @@
 <template>
-  <div>关于本站：YuIndex 极客范儿的浏览器主页</div>
+  <div>关于本站： 终端范的浏览器个人主页</div>
   <div>
-    <a href="https://github.com/liyupi/yuindex" target="_blank">
-      代码开源，欢迎 star 和贡献~
-    </a>
+    欢迎使用和吐槽
   </div>
   <div></div>
   <div>
     作者：
-    <a href="https://docs.qq.com/doc/DUFFRVWladXVjeUxW" target="_blank">
-      程序员鱼皮
+    <a href="http://www.itzoujie.com" target="_blank">
+      itzou
     </a>
   </div>
 </template>

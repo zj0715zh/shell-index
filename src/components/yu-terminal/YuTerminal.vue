@@ -405,11 +405,11 @@ onMounted(() => {
     });
   } else {
     terminal.writeTextOutput(
-      `Welcome to YuIndex, coolest browser index for geeks!` +
-        `<a href="//github.com/liyupi/yuindex" target='_blank'> GitHub Open Source</a>`
+      `Welcome to ShellIndex, coolest browser index for you!` +
+        `<a href="//github.com/zj0715zh/shell-index" target='_blank'> GitHub Open Source</a>`
     );
     terminal.writeTextOutput(
-      `Author <a href="//docs.qq.com/doc/DUFFRVWladXVjeUxW" target="_blank">coder_yupi</a>` +
+      `Author coder_itzou` +
         `: please input 'help' to enjoy`
     );
     terminal.writeTextOutput("<br/>");

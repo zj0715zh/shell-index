@@ -3,7 +3,7 @@ import { translate } from "./fanYiApi";
 
 /**
  * 翻译命令
- * @author yupi
+ * @author itzou
  */
 const fanyiCommand: CommandType = {
   func: "fanyi",

@@ -4,7 +4,7 @@ import ComponentOutputType = YuTerminal.ComponentOutputType;
 
 /**
  * 热榜命令
- * @author yupi
+ * @author itzou
  */
 const hotCommand: CommandType = {
   func: "hot",

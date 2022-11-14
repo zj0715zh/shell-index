@@ -1,1 +1,0 @@
-import{d as r,y as s,j as i,a as n,c,e as l,u as d}from"./index.f4c890b6.js";const m=["src"],h=r({__name:"BilibiliBox",props:{bvid:null},setup(e){const t=e,{bvid:a}=s(t),o=i(()=>`https://player.bilibili.com/player.html?bvid=${a.value}`);return(p,u)=>(n(),c("div",null,[l("iframe",{frameborder:"no",marginwidth:"0",marginheight:"0",src:d(o)},null,8,m)]))}});export{h as default};

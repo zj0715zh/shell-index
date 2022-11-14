@@ -4,7 +4,7 @@ import ComponentOutputType = YuTerminal.ComponentOutputType;
 
 /**
  * ikun 测试（整活）
- * @author yupi
+ * @author itzou
  */
 const ikuntestCommand: CommandType = {
   func: "ikuntest",
