@@ -32,6 +32,8 @@ class ExpressServer {
       bodyParser.urlencoded({ extended: false, limit: requestLimit })
     );
     this.app.use(bodyParser.json({ limit: requestLimit }));
+    this.app.set('views', process.cwd()+'/public');
+    this.app.use(express.static(process.cwd() + "/public"));
     this.app.set("x-powered-by", false);
     this.app.all("*", (req, res, next) => {
       // 开启跨域
@@ -70,6 +72,9 @@ class ExpressServer {
       },
     };
     this.app.use(expressSession(sessionOptions));
+    this.app.get('/', async (req, res) => {
+      res.render('index')
+    });
     this.server = http.createServer(this.app);
   }
 
