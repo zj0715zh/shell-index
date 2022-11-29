@@ -13,8 +13,8 @@ module.exports = {
   dbConfig: {
     database: "shellindex",
     username: "root",
-    // password: "zj-ZH19900808",
-    password: "zj010379",
+    password: "zj-ZH19900808",
+    // password: "zj010379",
     host: "localhost",
     port: 3306,
   },
