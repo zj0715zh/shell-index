@@ -434,6 +434,7 @@ defineExpose({
 <style scoped>
 .yu-terminal-wrapper {
   background: black;
+  background-size: cover;
 }
 
 .yu-terminal {
