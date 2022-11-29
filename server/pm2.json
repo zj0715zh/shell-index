@@ -9,7 +9,7 @@
 		"args": [],
 		"env": {
 			"PORT": 7777,
-            "NODE_ENV": "production"
+            "NODE_ENV": "prod"
 		},
 		"log_date_format": "YYYY-MM-DD HH:mm Z",
 		"error_file": "log/shell_error.log",
