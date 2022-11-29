@@ -2,8 +2,8 @@ const axios = require("axios");
 const MD5 = require("./md5");
 const { baiduFanYiConfig } = require("../../config/getConfig");
 
-const appid = baiduFanYiConfig?.appid;
-const key = baiduFanYiConfig?.key;
+const appid = (baiduFanYiConfig && baiduFanYiConfig.appid) || '';
+const key = (baiduFanYiConfig && baiduFanYiConfig.key) || '';
 
 /**
  * 百度翻译
@@ -17,8 +17,8 @@ async function translate(keywords, config) {
   }
   const salt = new Date().getTime();
   // 多个query可以用\n连接  如 query='apple\norange\nbanana\npear'
-  const from = config?.from ?? "auto";
-  const to = config?.to ?? "auto";
+  const from = config && config.from ? config.from : "auto";
+  const to = config && config.to ? config.to : "auto";
   const sign = MD5(appid + keywords + salt + key);
   return await axios({
     method: "get",

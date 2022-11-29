@@ -3,7 +3,7 @@
  * @author yupi
  */
 let config;
-const env = process.env.NODE_ENV ?? "local";
+const env = process.env.NODE_ENV ? process.env.NODE_ENV : "local";
 
 if (env === "local") {
   config = require("./config");

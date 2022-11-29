@@ -17,7 +17,7 @@
 		"pid_file": "pids/shell_pip.pid",
 		"instances": 1,
 		"min_uptime": "200s",
-		"max_restarts": 10,
+		"max_restarts": 2,
 		"ignore_watch": ["node_module"],
 		"merge_logs": true,
 		"exec_interpreter": "node",

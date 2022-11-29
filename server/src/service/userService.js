@@ -20,7 +20,7 @@ const SALT = "coder_yupi";
 async function getLoginUser(req) {
   // 获取当前登录用户
   const { userInfo } = req.session;
-  if (!userInfo?.id) {
+  if (!(userInfo && userInfo.id)) {
     throw new MyError(NO_AUTH_ERROR_CODE, "未登录");
   }
   const currentUser = await UserModel.findByPk(userInfo.id);
